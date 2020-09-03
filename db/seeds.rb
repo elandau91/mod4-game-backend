@@ -10,7 +10,7 @@ Game.destroy_all
 Round.destroy_all
 Question.destroy_all
 
-u1 = User.create(username: "eli", password_digest: "pw", total_score: 10)
+u1 = User.create(username: "eli", password: "pw", total_score: 10)
 
 g1 = Game.create(title: "Tech Facts")
 
