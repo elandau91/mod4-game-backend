@@ -17,6 +17,8 @@ ActiveRecord::Schema.define(version: 2020_09_02_174921) do
 
   create_table "games", force: :cascade do |t|
     t.string "title"
+    t.string "description"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -25,6 +27,7 @@ ActiveRecord::Schema.define(version: 2020_09_02_174921) do
     t.integer "game_id"
     t.string "question"
     t.integer "answer"
+    t.integer "over_under_line"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
@@ -33,6 +36,7 @@ ActiveRecord::Schema.define(version: 2020_09_02_174921) do
   create_table "rounds", force: :cascade do |t|
     t.integer "user_id"
     t.integer "game_id"
+    t.integer "round_score", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
