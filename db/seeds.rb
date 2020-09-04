@@ -10,7 +10,7 @@ Game.destroy_all
 Round.destroy_all
 Question.destroy_all
 
-u1 = User.create(username: "eli", password: "pw", total_score: 10)
+u1 = User.create(username: "eli", password: "pw")
 
 g1 = Game.create(title: "Tech Facts", description: "Techical Tech Stuff From the Tech world", image_url: "https://cdn.thegentlemansjournal.com/wp-content/uploads/2015/10/bill-gates2.jpg")
 g2 = Game.create(title: "Art Facts", description: "This one has got all your crazy art estimations baby", image_url: "https://images-na.ssl-images-amazon.com/images/I/61vvPgDP7hL._AC_.jpg")
