@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(version: 2020_09_02_174921) do
   create_table "questions", force: :cascade do |t|
     t.integer "game_id"
     t.string "question"
-    t.integer "answer"
-    t.integer "over_under_line"
+    t.float "answer"
+    t.float "over_under_line"
     t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
