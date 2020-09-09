@@ -13,7 +13,7 @@ Question.destroy_all
 # q = Question.create(question: "", answer: , over_under_line: , img_url: "", game:  )
 
 
-u1 = User.create(username: "eli", password: "pw")
+u1 = User.create(username: "eli", password: "pw", avatar: "https://cdn.vox-cdn.com/thumbor/PudY8h9lXHB7sgNmxPXNpGCdYx4=/0x555:2227x2225/1400x1400/filters:focal(0x555:2227x2225):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/46475996/GettyImages-478084727.0.0.jpg")
 
 g1 = Game.create(title: "Tech Facts", description: "Technically just technological facts from the tech world. tech.", image_url: "https://cdn.thegentlemansjournal.com/wp-content/uploads/2015/10/bill-gates2.jpg")
 g2 = Game.create(title: "Celebrity Net Worth", description: "We know you're at least a little curious...", image_url: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F11%2F20%2F77%2F112077ccc8dbdd4a34f91a628e16d698.jpg")
