@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       resources :questions
       resources :rounds
       resources :games
-      resources :users, only: [:create, :index]
+      resources :users, only: [:create, :index, :destroy]
       post '/login', to: 'auth#create'
       post '/new', to: 'users#create'
       get '/profile', to: 'users#profile'
