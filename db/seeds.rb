@@ -32,7 +32,7 @@ g2 = Game.create(title: "Celebrity Net Worth", description: "We know you're at l
 g3 = Game.create(title: "Most Viewed Media of All Time", description: "Popular, you're gonna be popuuular", image_url: "https://s.yimg.com/ny/api/res/1.2/0KbNiSrE76VoYKtAoMf4_A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://media.zenfs.com/en-US/popsugar_us/50af13854a0e95251f5af007d0c6ebce")
 g4 = Game.create(title: "Art Facts", description: "THAT sold for HOW much?!?!", image_url: "https://images-na.ssl-images-amazon.com/images/I/61vvPgDP7hL._AC_.jpg")
 g5 = Game.create(title: "Athlete Salaries", description: "I want to be like Mike.", image_url: "https://sites.psu.edu/emfcivic/files/2018/03/Sports-Debate-1kf6fz2.jpg")
-g6 = Game.create(title: "Liquid Measurment", description: "Were you paying attention in elementary school? Prove it.", image_url: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2Fr2eGAHAzv84gJjh9LVdjtY-1200-80.jpg")
+g6 = Game.create(title: "Liquid Measurement", description: "Were you paying attention in elementary school? Prove it.", image_url: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2Fr2eGAHAzv84gJjh9LVdjtY-1200-80.jpg")
 g7 = Game.create(title: "Weird World Records", description: "People care a lot about setting records, apparently.", image_url: "https://images.news18.com/ibnlive/uploads/2018/02/220.jpg?impolicy=website&width=400&height=0")
 g8 = Game.create(title: "Baby Animals", description: "Soothing facts about furry friends", image_url: "https://filmdaily.co/wp-content/uploads/2020/05/baby-animals-lede.jpg")
 
