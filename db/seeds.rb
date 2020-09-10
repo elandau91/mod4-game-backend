@@ -13,25 +13,25 @@ Question.destroy_all
 # q = Question.create(question: "", answer: , over_under_line: , img_url: "", game:  )
 
 
-u1 = User.create(username: "eli", password: "pw", avatar: "https://cdn.profootballrumors.com/files/2019/01/Eli-Manning-featuredalala.jpg")
-u2 = User.create(username: "matt", password: "pw", avatar: "https://media1.popsugar-assets.com/files/thumbor/MZkC1SJI0FE29ppjcoSTGAfqWLw/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/01/12/848/n/1922398/83a0166d5877d7769fd5a5.09866537_edit_img_image_42990626_1484246175/i/Matt-Damon-Hot-Pictures.jpg")
-u3 = User.create(username: "kermit", password: "pw", avatar: "https://lumiere-a.akamaihd.net/v1/images/character_themuppets_kermit_09279e8e.jpeg")
-u4 = User.create(username: "mspiggy", password: "pw", avatar: "https://upload.wikimedia.org/wikipedia/en/2/22/MissPiggy.jpg")
-u5 = User.create(username: "gonzo", password: "pw", avatar: "https://i.pinimg.com/originals/c7/78/6a/c7786af7ad84962756fdd565a50e3fc0.png")
-u6 = User.create(username: "animal", password: "pw", avatar: "https://vignette.wikia.nocookie.net/muppet/images/0/0f/Animal-BlueBackground.jpg/revision/latest?cb=20150814012607")
-u7 = User.create(username: "beeker", password: "pw", avatar: "https://i.pinimg.com/originals/e2/07/af/e207af622e41a9a01b500504537fce22.jpg")
-u8 = User.create(username: "fozzy", password: "pw", avatar: "https://lumiere-a.akamaihd.net/v1/images/character_themuppets_fozzie_4f1a1c42.jpeg?region=0%2C0%2C450%2C450")
-u9 = User.create(username: "statler", password: "pw", avatar: "https://i.imgur.com/MN3JG0Km.jpg")
-u10 = User.create(username: "waldorf", password: "pw", avatar: "https://41.media.tumblr.com/c16dc644375f393da5b037a5fb825d73/tumblr_nr8dqkVvGN1slbj5no2_1280.jpg")
+u1 = User.create(username: "Eli", password: "pw", avatar: "https://cdn.profootballrumors.com/files/2019/01/Eli-Manning-featuredalala.jpg")
+u2 = User.create(username: "Matt", password: "pw", avatar: "https://media1.popsugar-assets.com/files/thumbor/MZkC1SJI0FE29ppjcoSTGAfqWLw/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2017/01/12/848/n/1922398/83a0166d5877d7769fd5a5.09866537_edit_img_image_42990626_1484246175/i/Matt-Damon-Hot-Pictures.jpg")
+u3 = User.create(username: "Kermit", password: "pw", avatar: "https://lumiere-a.akamaihd.net/v1/images/character_themuppets_kermit_09279e8e.jpeg")
+u4 = User.create(username: "Ms. Piggy", password: "pw", avatar: "https://upload.wikimedia.org/wikipedia/en/2/22/MissPiggy.jpg")
+u5 = User.create(username: "Gonzo", password: "pw", avatar: "https://i.pinimg.com/originals/c7/78/6a/c7786af7ad84962756fdd565a50e3fc0.png")
+u6 = User.create(username: "Animal", password: "pw", avatar: "https://vignette.wikia.nocookie.net/muppet/images/0/0f/Animal-BlueBackground.jpg/revision/latest?cb=20150814012607")
+u7 = User.create(username: "Beeker", password: "pw", avatar: "https://i.pinimg.com/originals/e2/07/af/e207af622e41a9a01b500504537fce22.jpg")
+u8 = User.create(username: "Fozzy", password: "pw", avatar: "https://lumiere-a.akamaihd.net/v1/images/character_themuppets_fozzie_4f1a1c42.jpeg?region=0%2C0%2C450%2C450")
+u9 = User.create(username: "Statler", password: "pw", avatar: "https://i.imgur.com/MN3JG0Km.jpg")
+u10 = User.create(username: "Waldorf", password: "pw", avatar: "https://41.media.tumblr.com/c16dc644375f393da5b037a5fb825d73/tumblr_nr8dqkVvGN1slbj5no2_1280.jpg")
 
 
 
 
-g1 = Game.create(title: "Tech Facts", description: "Technically sound technological facts from the tech world.", image_url: "https://cdn.thegentlemansjournal.com/wp-content/uploads/2015/10/bill-gates2.jpg")
+g1 = Game.create(title: "Tech Facts", description: "Technically sound technology facts from the tech world.", image_url: "https://cdn.thegentlemansjournal.com/wp-content/uploads/2015/10/bill-gates2.jpg")
 g2 = Game.create(title: "Celebrity Net Worth", description: "We know you're at least a little curious...", image_url: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F11%2F20%2F77%2F112077ccc8dbdd4a34f91a628e16d698.jpg")
-g3 = Game.create(title: "Most Viewed Media of All Time", description: "Popular, you're gonna be popuuular", image_url: "https://s.yimg.com/ny/api/res/1.2/0KbNiSrE76VoYKtAoMf4_A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://media.zenfs.com/en-US/popsugar_us/50af13854a0e95251f5af007d0c6ebce")
+g3 = Game.create(title: "Most Viewed Media of All Time", description: "People have watched a lot of things.", image_url: "https://s.yimg.com/ny/api/res/1.2/0KbNiSrE76VoYKtAoMf4_A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://media.zenfs.com/en-US/popsugar_us/50af13854a0e95251f5af007d0c6ebce")
 g4 = Game.create(title: "Art Facts", description: "THAT sold for HOW much?!?!", image_url: "https://images-na.ssl-images-amazon.com/images/I/61vvPgDP7hL._AC_.jpg")
-g5 = Game.create(title: "Athlete Salaries", description: "I want to be like Mike.", image_url: "https://sites.psu.edu/emfcivic/files/2018/03/Sports-Debate-1kf6fz2.jpg")
+g5 = Game.create(title: "Athlete Salaries", description: "You miss 100% of the dollars you don't make.", image_url: "https://sites.psu.edu/emfcivic/files/2018/03/Sports-Debate-1kf6fz2.jpg")
 g6 = Game.create(title: "Liquid Measurement", description: "Were you paying attention in elementary school? Prove it.", image_url: "https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2Fr2eGAHAzv84gJjh9LVdjtY-1200-80.jpg")
 g7 = Game.create(title: "Weird World Records", description: "People care a lot about setting records, apparently.", image_url: "https://images.news18.com/ibnlive/uploads/2018/02/220.jpg?impolicy=website&width=400&height=0")
 g8 = Game.create(title: "Baby Animals", description: "Soothing facts about furry friends", image_url: "https://filmdaily.co/wp-content/uploads/2020/05/baby-animals-lede.jpg")
